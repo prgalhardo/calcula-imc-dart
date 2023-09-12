@@ -3,11 +3,11 @@ class Pessoa {
   double _peso = 0.0;
   double _altura = 0.0;
 
-  Pessoa(String nome, double peso, double altura) {
-    _nome = nome;
-    _peso = peso;
-    _altura = altura;
-  }
+  // Pessoa(String nome, double peso, double altura) {
+   // _nome = nome;
+   // _peso = peso;
+   // _altura = altura;
+  // }
 
   void setNome(String nome) {
     _nome = nome;
@@ -25,7 +25,7 @@ class Pessoa {
     return _peso;
   }
 
-  void seAltura(double altura) {
+  void setAltura(double altura) {
     _altura = altura;
   }
 
